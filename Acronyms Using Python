@@ -1,0 +1,16 @@
+# Get the user input
+user_input = input("Enter a Phrase: ")
+
+# Split the input text into words
+words = user_input.split()
+
+# Initialize an empty string for the result
+result = ""
+
+# Iterate over each word in the list
+for word in words:
+    # Append the uppercase initial of each word to the result string
+    result += word[0].upper()
+
+# Print the final result
+print(result)
